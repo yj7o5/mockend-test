@@ -1,5 +1,5 @@
 {
-  "RunMap": {
+  "Map": {
     "output": "string",
     "errors": "Error[]"
   },
@@ -9,6 +9,7 @@
     "detail": "string",
     "when": "date",
     "line": "int",
-    "column": "int"
+    "column": "int",
+    "map": "Map"
   }
 }
