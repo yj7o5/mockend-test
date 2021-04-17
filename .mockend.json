@@ -4,8 +4,7 @@
     "errors": "Error[]"
   },
   "Error": {
-    "id": "int",
-    "title": "string",
+    "type": "string",
     "detail": "string",
     "when": "date",
     "line": "int",
