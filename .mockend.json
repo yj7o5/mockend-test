@@ -1,13 +1,14 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+  "RunMap": {
+    "output": "string",
+    "errors": "Error[]"
   },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Error": {
+    "id": "int",
+    "title": "string",
+    "detail": "string",
+    "when": "date",
+    "line": "int",
+    "column": "int"
   }
 }
